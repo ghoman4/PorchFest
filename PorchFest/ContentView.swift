@@ -11,18 +11,32 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            // MapView with user tracking
+            //Background color
+            Color("white").ignoresSafeArea()
+            // MapView with user tracking inside a circle
             if let lastKnownLocation = locationDataManager.lastKnownLocation {
-                MapViewRepresentable(region: $region, trackingMode: $trackingMode)
-                    .onAppear {
-                        updateRegion(lastKnownLocation)
-                    }
-                    .edgesIgnoringSafeArea(.all)
+                GeometryReader { geometry in
+                    MapViewRepresentable(region: $region, trackingMode: $trackingMode)
+                        .onAppear {
+                            updateRegion(lastKnownLocation)
+                        }
+                        .clipShape(Circle()) // Clip the map to a circle
+                        .overlay(Circle().stroke(Color("secondary"), lineWidth: 4)) // Border
+                        .shadow(color: Color.black.opacity(0.3), radius: 10, x: 0, y: 5) // Add shadow
+                        .padding(10) // Extra padding
+                        .frame(maxWidth: min(geometry.size.width - 40, 500)) // Padding & max width
+                        .aspectRatio(1, contentMode: .fit) // aspect ratio of 1 (perfect circle)
+                        .position(x: geometry.size.width / 2, y: geometry.size.height / 2) // Center map
+
+                }
+                .edgesIgnoringSafeArea(.all)
             } else {
-                Text("Locating...")
-                ProgressView()
+                VStack {
+                    Text("Locating...")
+                    ProgressView()
+                }
             }
-            
+
             // Location information UI
             VStack {
                 Spacer()
@@ -33,6 +47,7 @@ struct ContentView: View {
             }
         }
     }
+
     
     // UI to show user status and distance to the target
     private var locationStatusView: some View {
@@ -70,10 +85,7 @@ struct ContentView: View {
     
     // Update map region when location changes
     private func updateRegion(_ location: CLLocationCoordinate2D) {
-        region = MKCoordinateRegion(
-            center: location,
-            span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01) // Adjust zoom as needed
-        )
+        
     }
 }
 
