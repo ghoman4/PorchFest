@@ -1,0 +1,1013 @@
+{
+    "City": "Ithaca",
+    "State/Zone": "NY",
+    "Country": "USA",
+    "Date": "9/22/2024",
+    "URL": "https://www.porchfest.org/",
+    "ScheduleURL": "https://www.google.com/maps/d/viewer?mid=1QsPM5cyGuPEfZ3M6UT4NGq8C8cCc5M0&femb=1&ll=42.445594697489504%2C-76.4992994733671&z=15",
+    "Filename": "Ithaca2024",
+    "Artists": [
+        {
+            "Name": "The Accords",
+            "Address": "449 N Aurora St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Aguinaldos y Amistades",
+            "Address": "110 Cascadilla St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Common Problem",
+            "Address": "Thompson Park",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Cornell Gamelan Ensemble",
+            "Address": "318 Lake Ave",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Cousins",
+            "Address": "105 Utica St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Doolin O\u2019Dey",
+            "Address": "102 Hancock St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Fairwinds Recorder Ensemble",
+            "Address": "313 Utica St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Glenside",
+            "Address": "111 First St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Ithaca Suzuki Music Education Violins",
+            "Address": "520 N Tioga St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Joe Gibson",
+            "Address": "614 N Tioga St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Naomi Sommers (acoustic)",
+            "Address": "304 Utica St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Nora Coch",
+            "Address": "904 N Tioga St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Opus Ithaca Jazz Combo",
+            "Address": "402 N Aurora St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "The Original Cornell Syncopators",
+            "Address": "100 Franklin St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Pegg-A-Palooza",
+            "Address": "514 Utica St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Richie Holtz and Friends",
+            "Address": "307 Auburn St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "The Sears Street Pot Burners",
+            "Address": "112 Sears St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Sharon Martinson",
+            "Address": "925 N Tioga St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "The Sing for Joy Gals",
+            "Address": "313 E Falls St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "The Time Riders Unplugged & Friends",
+            "Address": "117 W Yates St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "timothy john weber",
+            "Address": "701 N Aurora St",
+            "StartTime": "12:00 PM",
+            "EndTime": "1:00 PM"
+        },
+        {
+            "Name": "Aftermarket",
+            "Address": "522 N Aurora St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Analog Breakdown",
+            "Address": "111 First St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Arlo CB",
+            "Address": "801 N Tioga St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Autumn Sun",
+            "Address": "102 Hancock St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Broke Holler",
+            "Address": "119 Farm St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Chimes of Bayonets",
+            "Address": "611 N Tioga St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Cobra Cadaver",
+            "Address": "118 Cascadilla Ave",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Colwyn Gulliford",
+            "Address": "119 Cascadilla St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Danny Speer & Town Without Pity",
+            "Address": "210 Utica St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Don\u2019t Don\u2019t",
+            "Address": "701 N Tioga St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Fall Crikkers Jug Band",
+            "Address": "219 Auburn St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Good Dog",
+            "Address": "211 Willow Ave",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Ithaca Suzuki Music Education Cellos",
+            "Address": "520 N Tioga St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "JazzHappensBand",
+            "Address": "100 Franklin St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Kenny\u2019s Ithaca Bluegrass Dirt Band",
+            "Address": "509 Utica St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Open Swim",
+            "Address": "433 N Aurora St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "P & G",
+            "Address": "106 Lake Ave",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "The Pin Drops",
+            "Address": "607 N Aurora St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Rock Voices Ithaca",
+            "Address": "517 Willow Ave",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Samite Solo for WSKG",
+            "Address": "On the WSKG porch at 304 Utica St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Sanguine Sweetheart",
+            "Address": "108 Utica St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Singtrece & Sir Kenneth",
+            "Address": "712 N Tioga St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Steve Holt",
+            "Address": "408 Linn St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "STSC Contemporary",
+            "Address": "720 N Aurora St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Tah-bu-tah-ba-tah-tha-we",
+            "Address": "1019 N Cayuga St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Timothy",
+            "Address": "818 N Aurora St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "Wayne Gottlieb",
+            "Address": "401 Utica St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "The Wire Choir Quartet",
+            "Address": "206 E Lewis St",
+            "StartTime": "1:00 PM",
+            "EndTime": "2:00 PM"
+        },
+        {
+            "Name": "1/0",
+            "Address": "909 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Blackjack Brothers",
+            "Address": "712 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Bob Roberts Calamity",
+            "Address": "818 N Aurora St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Charlie Young",
+            "Address": "313 Utica St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Dad On Arrival",
+            "Address": "601 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "DJ Anthony Green",
+            "Address": "1022 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Dylan Mitchell",
+            "Address": "corner of Adams & Dey",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Frits Marohn Jazz Combo",
+            "Address": "306 E Yates St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Get Off My Lawn",
+            "Address": "412 Utica St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "In-laws and Outlaws",
+            "Address": "517 Willow Ave",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Ithaca Ukes & Hula Hut Polynesian Dance",
+            "Address": "204 W Yates St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Material Objects & Friends",
+            "Address": "611 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Mighty Jet",
+            "Address": "406 E Yates St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Ovenbird",
+            "Address": "108 Utica St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "The Pelotones",
+            "Address": "411 Willow Ave",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Porch Couch",
+            "Address": "319 Linn St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Ryan Vega",
+            "Address": "123 Farm St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "S00P",
+            "Address": "112 Lake Ave",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Scratched Vinyl",
+            "Address": "1204 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "S\u00e9 Leigheas",
+            "Address": "511 N Aurora St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Shrieking Violets",
+            "Address": "607 N Aurora St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Simple Gifts",
+            "Address": "810 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "The Small Kings",
+            "Address": "112 W Marshall St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "The Soul Benders",
+            "Address": "403 N Tioga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Stranded with a Kiss",
+            "Address": "711 N Aurora St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Teencat",
+            "Address": "430 N Cayuga St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Trillium Recorder Trio",
+            "Address": "111 W Yates St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Two Sisters In A Trench Coat",
+            "Address": "111 Auburn St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "The Wallnuts",
+            "Address": "210-210 1/2 Utica St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Wayne Kerr (W.K.)",
+            "Address": "309 Cascadilla St",
+            "StartTime": "2:00 PM",
+            "EndTime": "3:00 PM"
+        },
+        {
+            "Name": "Alan Rose",
+            "Address": "107 Utica St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Amber Martin",
+            "Address": "412 Utica St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Angela Marion",
+            "Address": "107 W Yates St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Benny and The Mex",
+            "Address": "319 Linn St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Chlo\u00e9 & Ed",
+            "Address": "209 Utica St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Cielle On Solid Ground",
+            "Address": "1204 N Tioga St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Dave & Angela Yantorno",
+            "Address": "206 E Jay St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Diana Leigh Quartet",
+            "Address": "442 N Aurora St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Escaped Donkeys",
+            "Address": "405 Willow Ave",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Findin\u2019 Time",
+            "Address": "306 E Yates St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Hooligans",
+            "Address": "128 Farm St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Johnny Dowd",
+            "Address": "208 Farm St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Louiston",
+            "Address": "711 N Aurora St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "The Makers",
+            "Address": "519 Willow Ave",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Mesa pa\u2019 Seis",
+            "Address": "212 Cascadilla St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Milk Cousin",
+            "Address": "430 N Cayuga St (back yard)",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Naomi Sommers",
+            "Address": "On the WSKG porch at 304 Utica St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "NEO Project",
+            "Address": "202 Dey St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "One Heart Community Drumming",
+            "Address": "Thompson Park",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "The Playdate",
+            "Address": "205 E Marshall St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "\u2018Porch Pest\u2019 Vinyl Block Party",
+            "Address": "825 N Aurora St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Reveria",
+            "Address": "209 Adams St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Rose Fritzky-Randolph",
+            "Address": "507 N Tioga St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Savage Cabbage and the Pickled Beats",
+            "Address": "515 N Aurora St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Secret Service Men",
+            "Address": "118 Cascadilla Ave",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Shevory and Bell",
+            "Address": "620 N Tioga St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Shuffle Brothers",
+            "Address": "607 N Aurora St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Six Mile Craic",
+            "Address": "102 Hancock St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Sugarhumans",
+            "Address": "607 N Tioga St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "Truth Decay",
+            "Address": "705 N Tioga St",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "The Workin Folks String Band",
+            "Address": "206 Lake Ave",
+            "StartTime": "3:00 PM",
+            "EndTime": "4:00 PM"
+        },
+        {
+            "Name": "14Strings! Filipino Rondalla",
+            "Address": "920 N Tioga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Ariel Arbisser and Band",
+            "Address": "711 N Aurora St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "The Burning Sensations",
+            "Address": "217 Utica St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Carpet Crawler",
+            "Address": "305 E Lincoln St (backyard)",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Chickenwire Parachute",
+            "Address": "205 Utica St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Cookie Coogan",
+            "Address": "804 N Tioga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Darkwine",
+            "Address": "507 N Tioga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "David Graybeard Band",
+            "Address": "105 Second St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Delaques",
+            "Address": "202 E Falls St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "DJ Dijon",
+            "Address": "430 N Cayuga St (back yard)",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Djug Django",
+            "Address": "219 Auburn St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Drew Kiddoo and The Blackouts",
+            "Address": "412 Utica St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Ever Stokes",
+            "Address": "517 Willow Ave",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Homie Discount",
+            "Address": "706 N Tioga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Ithaca Waldorf School",
+            "Address": "114 Dey St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Jimmy James",
+            "Address": "corner of Adams & Dey",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Kitestring",
+            "Address": "206 E Lewis St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Knockout Rats",
+            "Address": "601 N Tioga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Levi and The Wranglers",
+            "Address": "319 Linn St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Metasequoia",
+            "Address": "818 N Aurora St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "The Name Changers:",
+            "Address": "449 N Aurora St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Nancy Babich",
+            "Address": "602 N Cayuga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Newman Brothers",
+            "Address": "208 Farm St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Nikolai Ruskin",
+            "Address": "112 E Falls St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Opus Ithaca Odyssey Choir",
+            "Address": "402 N Aurora St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Qween niya and friends",
+            "Address": "420 Lake Ave",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Real Quick",
+            "Address": "118 Cascadilla Ave",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Shattered Shadows",
+            "Address": "611 N Tioga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Sixteen Feathers",
+            "Address": "515 N Tioga St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Stone\u2019s Throw Creek",
+            "Address": "306 E Yates St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Susannah Lee & The Slizzards",
+            "Address": "515 N Aurora St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "The Time Riders",
+            "Address": "117 W Yates St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "Truth Star",
+            "Address": "111 Auburn St",
+            "StartTime": "4:00 PM",
+            "EndTime": "5:00 PM"
+        },
+        {
+            "Name": "18 Strings of Luv",
+            "Address": "105 King St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Alejandro Ruiz",
+            "Address": "428 N Tioga St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "The Analogue Sons",
+            "Address": "202 E Falls St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Anna Oxygen and the Light Waves",
+            "Address": "119 Linn St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Christmas Island Strangler",
+            "Address": "416 N Aurora St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Community Square Dance in the Street!!!",
+            "Address": "613 N Tioga St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Fall Creek Brass Band",
+            "Address": "Thompson Park",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Fusebox",
+            "Address": "206 E Lewis St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Hip Check",
+            "Address": "516 Linn St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Instrument Petting Zoo",
+            "Address": "202 King St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Jeremy & Beth",
+            "Address": "515 N Aurora St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "KarleeCrow",
+            "Address": "408 E Marshall St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Low Indigos",
+            "Address": "208 Farm St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Luke Gustafson",
+            "Address": "801 N Tioga St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Marcella Leaves Eden",
+            "Address": "100 Franklin St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Moqueca",
+            "Address": "411 Willow Ave",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Motherwort",
+            "Address": "412 Utica St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Off the Rails",
+            "Address": "710 N Tioga St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Sav The Scientist",
+            "Address": "105 Utica St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Suzie Quties",
+            "Address": "209 Utica St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Trevor MacDonald",
+            "Address": "507 N Aurora St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "\u00a1Viva Mayhem!",
+            "Address": "104 Adams St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "Work Friends",
+            "Address": "702 N Aurora St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        },
+        {
+            "Name": "THE X\u2019PLOZIONZ!!!",
+            "Address": "517 N Tioga St",
+            "StartTime": "5:00 PM",
+            "EndTime": "6:00 PM"
+        }
+    ]
+}
