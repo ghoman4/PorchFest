@@ -12,6 +12,11 @@
 		C226C33F2C88A5D90023F6FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226C33E2C88A5D90023F6FC /* ContentView.swift */; };
 		C226C3412C88A5DA0023F6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226C3402C88A5DA0023F6FC /* Assets.xcassets */; };
 		C226C3442C88A5DA0023F6FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226C3432C88A5DA0023F6FC /* Preview Assets.xcassets */; };
+		C28209E32CA08CE000684D35 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28209E22CA08CE000684D35 /* MainNavigationView.swift */; };
+		C28209E52CA08DA500684D35 /* AroundMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28209E42CA08DA500684D35 /* AroundMeView.swift */; };
+		C28209E72CA093B800684D35 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28209E62CA093B800684D35 /* RecordView.swift */; };
+		C28209E92CA094A600684D35 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28209E82CA094A600684D35 /* HistoryView.swift */; };
+		C28209EB2CA0951400684D35 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28209EA2CA0951400684D35 /* FavoritesView.swift */; };
 		C2C3AE2C2C8B4D5B00DC8F58 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +29,11 @@
 		C226C3432C88A5DA0023F6FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C28209DE2C9F8DC200684D35 /* Ithaca2024.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ithaca2024.json; sourceTree = "<group>"; };
 		C28209DF2C9F8DC600684D35 /* PorchfestList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PorchfestList.json; sourceTree = "<group>"; };
+		C28209E22CA08CE000684D35 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		C28209E42CA08DA500684D35 /* AroundMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundMeView.swift; sourceTree = "<group>"; };
+		C28209E62CA093B800684D35 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		C28209E82CA094A600684D35 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C28209EA2CA0951400684D35 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		C297477E2C8A44BA00F7EB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,10 +68,15 @@
 		C226C33B2C88A5D90023F6FC /* PorchFest */ = {
 			isa = PBXGroup;
 			children = (
-				C297477E2C8A44BA00F7EB08 /* Info.plist */,
-				C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */,
+				C28209E42CA08DA500684D35 /* AroundMeView.swift */,
+				C28209E62CA093B800684D35 /* RecordView.swift */,
+				C28209E82CA094A600684D35 /* HistoryView.swift */,
+				C28209EA2CA0951400684D35 /* FavoritesView.swift */,
 				C226C33E2C88A5D90023F6FC /* ContentView.swift */,
+				C28209E22CA08CE000684D35 /* MainNavigationView.swift */,
+				C297477E2C8A44BA00F7EB08 /* Info.plist */,
 				C20E7B192C88AA50003E9979 /* LocationDataManager.swift */,
+				C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */,
 				C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */,
 				C226C3402C88A5DA0023F6FC /* Assets.xcassets */,
 				C28209DE2C9F8DC200684D35 /* Ithaca2024.json */,
@@ -150,9 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C226C33F2C88A5D90023F6FC /* ContentView.swift in Sources */,
+				C28209E92CA094A600684D35 /* HistoryView.swift in Sources */,
+				C28209E52CA08DA500684D35 /* AroundMeView.swift in Sources */,
 				C20E7B1A2C88AA50003E9979 /* LocationDataManager.swift in Sources */,
+				C28209E72CA093B800684D35 /* RecordView.swift in Sources */,
 				C2C3AE2C2C8B4D5B00DC8F58 /* MapViewRepresentable.swift in Sources */,
+				C28209E32CA08CE000684D35 /* MainNavigationView.swift in Sources */,
 				C226C33D2C88A5D90023F6FC /* PorchFestApp.swift in Sources */,
+				C28209EB2CA0951400684D35 /* FavoritesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
