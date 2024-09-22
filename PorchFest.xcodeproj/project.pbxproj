@@ -12,8 +12,6 @@
 		C226C33F2C88A5D90023F6FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226C33E2C88A5D90023F6FC /* ContentView.swift */; };
 		C226C3412C88A5DA0023F6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226C3402C88A5DA0023F6FC /* Assets.xcassets */; };
 		C226C3442C88A5DA0023F6FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226C3432C88A5DA0023F6FC /* Preview Assets.xcassets */; };
-		C28209DB2C9E391C00684D35 /* PorchfestList.json in Resources */ = {isa = PBXBuildFile; fileRef = C28209DA2C9E391C00684D35 /* PorchfestList.json */; };
-		C28209DD2C9E393B00684D35 /* Ithaca2024.json in Resources */ = {isa = PBXBuildFile; fileRef = C28209DC2C9E393B00684D35 /* Ithaca2024.json */; };
 		C2C3AE2C2C8B4D5B00DC8F58 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +22,8 @@
 		C226C33E2C88A5D90023F6FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C226C3402C88A5DA0023F6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C226C3432C88A5DA0023F6FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C28209DA2C9E391C00684D35 /* PorchfestList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PorchfestList.json; path = ../../../../Downloads/PorchfestList.json; sourceTree = "<group>"; };
-		C28209DC2C9E393B00684D35 /* Ithaca2024.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Ithaca2024.json; path = ../../../../.Trash/Ithaca2024.json; sourceTree = "<group>"; };
+		C28209DE2C9F8DC200684D35 /* Ithaca2024.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ithaca2024.json; sourceTree = "<group>"; };
+		C28209DF2C9F8DC600684D35 /* PorchfestList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PorchfestList.json; sourceTree = "<group>"; };
 		C297477E2C8A44BA00F7EB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +64,8 @@
 				C20E7B192C88AA50003E9979 /* LocationDataManager.swift */,
 				C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */,
 				C226C3402C88A5DA0023F6FC /* Assets.xcassets */,
+				C28209DE2C9F8DC200684D35 /* Ithaca2024.json */,
+				C28209DF2C9F8DC600684D35 /* PorchfestList.json */,
 				C226C3422C88A5DA0023F6FC /* Preview Content */,
 			);
 			path = PorchFest;
@@ -74,8 +74,6 @@
 		C226C3422C88A5DA0023F6FC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C28209DC2C9E393B00684D35 /* Ithaca2024.json */,
-				C28209DA2C9E391C00684D35 /* PorchfestList.json */,
 				C226C3432C88A5DA0023F6FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -140,9 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C226C3442C88A5DA0023F6FC /* Preview Assets.xcassets in Resources */,
-				C28209DD2C9E393B00684D35 /* Ithaca2024.json in Resources */,
 				C226C3412C88A5DA0023F6FC /* Assets.xcassets in Resources */,
-				C28209DB2C9E391C00684D35 /* PorchfestList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

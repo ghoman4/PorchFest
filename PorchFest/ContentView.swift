@@ -27,7 +27,6 @@ struct ContentView: View {
                         .frame(maxWidth: min(geometry.size.width - 40, 500)) // Padding & max width
                         .aspectRatio(1, contentMode: .fit) // aspect ratio of 1 (perfect circle)
                         .position(x: geometry.size.width / 2, y: geometry.size.height / 2) // Center map
-
                 }
                 .edgesIgnoringSafeArea(.all)
             } else {
@@ -39,6 +38,16 @@ struct ContentView: View {
 
             // Location information UI
             VStack {
+                Image("Logo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 60, height: 60)
+                Text("Nearby Bands")
+                    .foregroundColor(Color("darkGrey"))
+                    .fontWeight(.heavy)
+                    .font(.title)
+                Text("Discover what's happening around you")
+                    .foregroundColor(Color("lightGrey"))
                 Spacer()
                 locationStatusView
                     .cornerRadius(10)
