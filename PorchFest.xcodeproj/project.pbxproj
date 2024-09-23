@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C20E7B1A2C88AA50003E9979 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E7B192C88AA50003E9979 /* LocationDataManager.swift */; };
+		C2170FA82CA1FD2D00484D4C /* PorchFestEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2170FA72CA1FD2D00484D4C /* PorchFestEvent.swift */; };
+		C2170FAA2CA1FD6500484D4C /* SimplePorchFestEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2170FA92CA1FD6500484D4C /* SimplePorchFestEvent.swift */; };
 		C226C33D2C88A5D90023F6FC /* PorchFestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */; };
 		C226C33F2C88A5D90023F6FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226C33E2C88A5D90023F6FC /* ContentView.swift */; };
 		C226C3412C88A5DA0023F6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226C3402C88A5DA0023F6FC /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		C20E7B192C88AA50003E9979 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		C2170FA72CA1FD2D00484D4C /* PorchFestEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorchFestEvent.swift; sourceTree = "<group>"; };
+		C2170FA92CA1FD6500484D4C /* SimplePorchFestEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePorchFestEvent.swift; sourceTree = "<group>"; };
 		C226C3392C88A5D90023F6FC /* PorchFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PorchFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorchFestApp.swift; sourceTree = "<group>"; };
 		C226C33E2C88A5D90023F6FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +53,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2170FA62CA1FCF100484D4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2170FA72CA1FD2D00484D4C /* PorchFestEvent.swift */,
+				C2170FA92CA1FD6500484D4C /* SimplePorchFestEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2170FAB2CA1FD8800484D4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C28209E22CA08CE000684D35 /* MainNavigationView.swift */,
+				C28209E42CA08DA500684D35 /* AroundMeView.swift */,
+				C28209E62CA093B800684D35 /* RecordView.swift */,
+				C28209E82CA094A600684D35 /* HistoryView.swift */,
+				C28209EA2CA0951400684D35 /* FavoritesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2170FAC2CA1FDCB00484D4C /* LocationFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */,
+				C20E7B192C88AA50003E9979 /* LocationDataManager.swift */,
+			);
+			path = LocationFiles;
+			sourceTree = "<group>";
+		};
 		C226C3302C88A5D90023F6FC = {
 			isa = PBXGroup;
 			children = (
@@ -68,16 +102,12 @@
 		C226C33B2C88A5D90023F6FC /* PorchFest */ = {
 			isa = PBXGroup;
 			children = (
-				C28209E42CA08DA500684D35 /* AroundMeView.swift */,
-				C28209E62CA093B800684D35 /* RecordView.swift */,
-				C28209E82CA094A600684D35 /* HistoryView.swift */,
-				C28209EA2CA0951400684D35 /* FavoritesView.swift */,
+				C2170FAB2CA1FD8800484D4C /* Views */,
+				C2170FA62CA1FCF100484D4C /* Models */,
+				C2170FAC2CA1FDCB00484D4C /* LocationFiles */,
 				C226C33E2C88A5D90023F6FC /* ContentView.swift */,
-				C28209E22CA08CE000684D35 /* MainNavigationView.swift */,
-				C297477E2C8A44BA00F7EB08 /* Info.plist */,
-				C20E7B192C88AA50003E9979 /* LocationDataManager.swift */,
 				C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */,
-				C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */,
+				C297477E2C8A44BA00F7EB08 /* Info.plist */,
 				C226C3402C88A5DA0023F6FC /* Assets.xcassets */,
 				C28209DE2C9F8DC200684D35 /* Ithaca2024.json */,
 				C28209DF2C9F8DC600684D35 /* PorchfestList.json */,
@@ -165,12 +195,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C226C33F2C88A5D90023F6FC /* ContentView.swift in Sources */,
+				C2170FAA2CA1FD6500484D4C /* SimplePorchFestEvent.swift in Sources */,
 				C28209E92CA094A600684D35 /* HistoryView.swift in Sources */,
 				C28209E52CA08DA500684D35 /* AroundMeView.swift in Sources */,
 				C20E7B1A2C88AA50003E9979 /* LocationDataManager.swift in Sources */,
 				C28209E72CA093B800684D35 /* RecordView.swift in Sources */,
 				C2C3AE2C2C8B4D5B00DC8F58 /* MapViewRepresentable.swift in Sources */,
 				C28209E32CA08CE000684D35 /* MainNavigationView.swift in Sources */,
+				C2170FA82CA1FD2D00484D4C /* PorchFestEvent.swift in Sources */,
 				C226C33D2C88A5D90023F6FC /* PorchFestApp.swift in Sources */,
 				C28209EB2CA0951400684D35 /* FavoritesView.swift in Sources */,
 			);
