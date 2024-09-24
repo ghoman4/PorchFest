@@ -15,4 +15,14 @@ struct SimplePorchFestEvent: Codable {
     let url: String
     let scheduleURL: String
     let filename: String
+    
+    enum CodingKeys: String, CodingKey {
+        case city = "City"
+        case stateZone = "State/Zone"
+        case country = "Country"
+        case date = "Date"
+        case url = "URL"
+        case scheduleURL = "ScheduleURL"
+        case filename = "Filename"
+    }
 }
