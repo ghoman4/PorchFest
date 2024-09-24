@@ -10,6 +10,10 @@
 		C20E7B1A2C88AA50003E9979 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E7B192C88AA50003E9979 /* LocationDataManager.swift */; };
 		C2170FA82CA1FD2D00484D4C /* PorchFestEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2170FA72CA1FD2D00484D4C /* PorchFestEvent.swift */; };
 		C2170FAA2CA1FD6500484D4C /* SimplePorchFestEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2170FA92CA1FD6500484D4C /* SimplePorchFestEvent.swift */; };
+		C2170FBB2CA2001A00484D4C /* PorchFestEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2170FBA2CA2001A00484D4C /* PorchFestEventTests.swift */; };
+		C2170FBD2CA2002C00484D4C /* SimplePorchFestEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2170FBC2CA2002C00484D4C /* SimplePorchFestEventTests.swift */; };
+		C2170FBE2CA2032300484D4C /* Ithaca2024.json in Resources */ = {isa = PBXBuildFile; fileRef = C28209DE2C9F8DC200684D35 /* Ithaca2024.json */; };
+		C2170FBF2CA2032300484D4C /* PorchfestList.json in Resources */ = {isa = PBXBuildFile; fileRef = C28209DF2C9F8DC600684D35 /* PorchfestList.json */; };
 		C226C33D2C88A5D90023F6FC /* PorchFestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */; };
 		C226C33F2C88A5D90023F6FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226C33E2C88A5D90023F6FC /* ContentView.swift */; };
 		C226C3412C88A5DA0023F6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226C3402C88A5DA0023F6FC /* Assets.xcassets */; };
@@ -22,10 +26,23 @@
 		C2C3AE2C2C8B4D5B00DC8F58 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3AE2B2C8B4D5B00DC8F58 /* MapViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C2170FB52CA1FFD800484D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C226C3312C88A5D90023F6FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C226C3382C88A5D90023F6FC;
+			remoteInfo = PorchFest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		C20E7B192C88AA50003E9979 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
 		C2170FA72CA1FD2D00484D4C /* PorchFestEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorchFestEvent.swift; sourceTree = "<group>"; };
 		C2170FA92CA1FD6500484D4C /* SimplePorchFestEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePorchFestEvent.swift; sourceTree = "<group>"; };
+		C2170FB12CA1FFD800484D4C /* PorchFestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorchFestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2170FBA2CA2001A00484D4C /* PorchFestEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorchFestEventTests.swift; sourceTree = "<group>"; };
+		C2170FBC2CA2002C00484D4C /* SimplePorchFestEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePorchFestEventTests.swift; sourceTree = "<group>"; };
 		C226C3392C88A5D90023F6FC /* PorchFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PorchFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorchFestApp.swift; sourceTree = "<group>"; };
 		C226C33E2C88A5D90023F6FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +60,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C2170FAE2CA1FFD800484D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C226C3362C88A5D90023F6FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,10 +107,22 @@
 			path = LocationFiles;
 			sourceTree = "<group>";
 		};
+		C2170FB22CA1FFD800484D4C /* PorchFestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C28209DE2C9F8DC200684D35 /* Ithaca2024.json */,
+				C28209DF2C9F8DC600684D35 /* PorchfestList.json */,
+				C2170FBA2CA2001A00484D4C /* PorchFestEventTests.swift */,
+				C2170FBC2CA2002C00484D4C /* SimplePorchFestEventTests.swift */,
+			);
+			path = PorchFestTests;
+			sourceTree = "<group>";
+		};
 		C226C3302C88A5D90023F6FC = {
 			isa = PBXGroup;
 			children = (
 				C226C33B2C88A5D90023F6FC /* PorchFest */,
+				C2170FB22CA1FFD800484D4C /* PorchFestTests */,
 				C226C33A2C88A5D90023F6FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				C226C3392C88A5D90023F6FC /* PorchFest.app */,
+				C2170FB12CA1FFD800484D4C /* PorchFestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,8 +146,6 @@
 				C226C33C2C88A5D90023F6FC /* PorchFestApp.swift */,
 				C297477E2C8A44BA00F7EB08 /* Info.plist */,
 				C226C3402C88A5DA0023F6FC /* Assets.xcassets */,
-				C28209DE2C9F8DC200684D35 /* Ithaca2024.json */,
-				C28209DF2C9F8DC600684D35 /* PorchfestList.json */,
 				C226C3422C88A5DA0023F6FC /* Preview Content */,
 			);
 			path = PorchFest;
@@ -127,6 +162,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C2170FB02CA1FFD800484D4C /* PorchFestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2170FB72CA1FFD800484D4C /* Build configuration list for PBXNativeTarget "PorchFestTests" */;
+			buildPhases = (
+				C2170FAD2CA1FFD800484D4C /* Sources */,
+				C2170FAE2CA1FFD800484D4C /* Frameworks */,
+				C2170FAF2CA1FFD800484D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2170FB62CA1FFD800484D4C /* PBXTargetDependency */,
+			);
+			name = PorchFestTests;
+			productName = PorchFestTests;
+			productReference = C2170FB12CA1FFD800484D4C /* PorchFestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C226C3382C88A5D90023F6FC /* PorchFest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C226C3472C88A5DA0023F6FC /* Build configuration list for PBXNativeTarget "PorchFest" */;
@@ -154,6 +207,11 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					C2170FB02CA1FFD800484D4C = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+						TestTargetID = C226C3382C88A5D90023F6FC;
+					};
 					C226C3382C88A5D90023F6FC = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -173,11 +231,21 @@
 			projectRoot = "";
 			targets = (
 				C226C3382C88A5D90023F6FC /* PorchFest */,
+				C2170FB02CA1FFD800484D4C /* PorchFestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C2170FAF2CA1FFD800484D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2170FBE2CA2032300484D4C /* Ithaca2024.json in Resources */,
+				C2170FBF2CA2032300484D4C /* PorchfestList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C226C3372C88A5D90023F6FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +258,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C2170FAD2CA1FFD800484D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2170FBB2CA2001A00484D4C /* PorchFestEventTests.swift in Sources */,
+				C2170FBD2CA2002C00484D4C /* SimplePorchFestEventTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C226C3352C88A5D90023F6FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,7 +287,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C2170FB62CA1FFD800484D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C226C3382C88A5D90023F6FC /* PorchFest */;
+			targetProxy = C2170FB52CA1FFD800484D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		C2170FB82CA1FFD800484D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3726845BCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.PorchFestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PorchFest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PorchFest";
+			};
+			name = Debug;
+		};
+		C2170FB92CA1FFD800484D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3726845BCQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.PorchFestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PorchFest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PorchFest";
+			};
+			name = Release;
+		};
 		C226C3452C88A5DA0023F6FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -399,6 +523,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C2170FB72CA1FFD800484D4C /* Build configuration list for PBXNativeTarget "PorchFestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2170FB82CA1FFD800484D4C /* Debug */,
+				C2170FB92CA1FFD800484D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C226C3342C88A5D90023F6FC /* Build configuration list for PBXProject "PorchFest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
